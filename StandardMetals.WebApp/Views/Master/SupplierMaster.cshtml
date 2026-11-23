@@ -1,0 +1,259 @@
+﻿@model StandardMetals.MODEL.SupplierMasterModelApril2026
+
+@{
+    ViewBag.Title = "SupplierMaster";
+}
+
+<br />
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+@using (Html.BeginForm("", "", FormMethod.Post, new { id = "frmSupplierMaster" }))
+{
+    <div class="container-fluid">
+        <!-- ====================== SEARCH PANEL ====================== -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4 class="panel-title">Search</h4>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <!-- Supplier Code -->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Supplier Code</label>
+                            @Html.DropDownListFor(m => m.SupplierID, ViewBag.SupplierCode as SelectList, "Select Supplier Code", new { @class = "form-control", SupplierID = "ddlSearchSuppCode" })
+                        </div>
+                    </div>
+
+                    <!-- Supplier Name -->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Supplier Name</label>
+                            @Html.DropDownListFor(m => m.SupplierID, ViewBag.SupplierName as SelectList, "Select Supplier Name", new { @class = "form-control", SupplierID = "ddlSearchSuppName" })
+                        </div>
+                    </div>
+
+                    <!-- Search Button -->
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label>&nbsp;</label>
+                            <br />
+                            <input type="button" id="btnSearch" value="Search" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====================== SUPPLIER INFORMATION ====================== -->
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4 class="panel-title">Supplier Information</h4>
+            </div>
+            <div class="panel-body">
+                <!-- Raw Material -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="checkbox">
+                            <label>
+                                @Html.CheckBoxFor(m => m.RawMaterial, new { id = "chkRawMaterial" })
+                                Raw Material
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- ================= LEFT COLUMN ================= -->
+                    <div class="col-md-6">
+                        <!-- Supplier Code -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Supplier Code</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.SupplierCode, new { @class = "form-control", id = "txtSupplierCode", @readonly = "readonly" })
+                            </div>
+                        </div>
+
+                        <!-- Contact Person -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Contact Person</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.ContactPerson, new { @class = "form-control", id = "txtContactPerson" })
+                            </div>
+                        </div>
+
+                        <!-- Address1 -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Address1</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Address1, new { @class = "form-control", id = "txtAddress1" })
+                            </div>
+                        </div>
+
+                        <!-- City -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">City</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.City, new { @class = "form-control", id = "txtCity" })
+                            </div>
+                        </div>
+
+                        <!-- Pincode -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Pincode</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.PinCode, new { @class = "form-control", id = "txtPincode" })
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Email ID</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.EmailID, new { @class = "form-control", id = "txtEmail", type = "email" })
+                            </div>
+                        </div>
+
+                        <!-- Mobile -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Mobile</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Mobile, new { @class = "form-control", id = "txtMobile" })
+                            </div>
+                        </div>
+
+                        <!-- Website -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Website</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Website, new { @class = "form-control", id = "txtWebsite" })
+                            </div>
+                        </div>
+
+                        <!-- Remarks -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Remarks</label>
+                            <div class="col-md-8">
+                                @Html.TextAreaFor(m => m.Remarks, new { @class = "form-control", id = "txtRemarks", rows = "3" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================= RIGHT COLUMN ================= -->
+                    <div class="col-md-6">
+                        <!-- Supplier Name -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Supplier Name</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.SupplierName, new { @class = "form-control", id = "txtSupplierName" })
+                            </div>
+                        </div>
+
+                        <!-- Branch -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Branch</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Branch, new { @class = "form-control", id = "txtBranch" })
+                            </div>
+                        </div>
+
+                        <!-- Address2 -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Address2</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Address2, new { @class = "form-control", id = "txtAddress2" })
+                            </div>
+                        </div>
+
+                        <!-- State -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">State</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.State, new { @class = "form-control", id = "txtState" })
+                            </div>
+                        </div>
+
+                        <!-- Country -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Country</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Country, new { @class = "form-control", id = "txtCountry" })
+                            </div>
+                        </div>
+
+                        <!-- Telephone -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Telephone</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Telephone, new { @class = "form-control", id = "txtTelephone" })
+                            </div>
+                        </div>
+
+                        <!-- Fax -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">Fax</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.Fax, new { @class = "form-control", id = "txtFax" })
+                            </div>
+                        </div>
+
+                        <!-- GSTIN -->
+                        <div class="form-group row">
+                            <label class="col-md-4 control-label">GSTIN</label>
+                            <div class="col-md-8">
+                                @Html.TextBoxFor(m => m.GSTIN, new { @class = "form-control", id = "txtGSTIN" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ================= BUTTON SECTION ================= -->
+                <hr />
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        @*<input type="button" id="btnSave" value="Save" class="btn btn-success" />
+                            &nbsp;
+                            <input type="button" id="btnUpdate" value="Update" class="btn btn-warning" />
+                            &nbsp;
+                            <input type="button" id="btnDelete" value="Delete" class="btn btn-danger" />
+                            &nbsp;*@
+                        <input type="button" id="btnClear" value="Clear" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts
+{
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // Search Button
+            $("#btnSearch").click(function () {
+                // Search AJAX code here
+            });
+
+            // Clear Button
+            $("#btnClear").click(function () {
+                $("#frmSupplierMaster")[0].reset();
+                $("#txtSupplierCode").val("");
+                $("#ddlSearchSuppCode").prop("selectedIndex", 0);
+                $("#ddlSearchSuppName").prop("selectedIndex", 0);
+            });
+
+            // Supplier Code Dropdown
+            $("#ddlSearchSuppCode").change(function () {
+                // Load Supplier by Code
+            });
+
+            // Supplier Name Dropdown
+            $("#ddlSearchSuppName").change(function () {
+                // Load Supplier by Name
+            });
+
+        });
+    </script>
+}

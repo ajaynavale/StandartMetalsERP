@@ -1,0 +1,392 @@
+﻿@model StandardMetals.MODEL.DefaultModal
+
+@{              ViewBag.Title = "DefaultDashboard";
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+
+<div class="col-lg-12 col-md-12">
+
+    <section id="CustomerInfo">
+
+        <div class="col-lg-12 col-md-12">
+
+            <div class="box box-info">
+
+                <!-- Dashboard Header -->
+                <div class="box-header with-border">
+
+                    <h3 class="box-title">
+                        Dashboard
+                    </h3>
+
+                    <div class="box-tools pull-right">
+
+                        <button type="button"
+                                class="btn btn-box-tool"
+                                data-widget="collapse">
+
+                            <i class="fa fa-minus"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dashboard Body -->
+                <div class="box-body">
+
+                    <div class="row">
+
+
+                        <!-- ============ SUPPLIER (LEFT HALF) ============ -->
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+
+                            <section id="SupplierWiseItems">
+
+                                <div class="box box-info">
+
+                                    <!-- Header -->
+                                    <div class="box-header with-border">
+
+                                        <h3 class="box-title">
+                                            Supplier Wise Items
+                                        </h3>
+
+                                    </div>
+
+
+                                    <!-- Body -->
+                                    <div class="box-body"
+                                         style="padding:10px;">
+
+
+                                        <div class="row">
+
+
+                                            <!-- TOTAL SUPPLIER -->
+                                            <div class="col-md-6 col-sm-6">
+
+                                                <div style="
+                                                    background:#0D9488;
+                                                    color:white;
+                                                    border:1px solid #00acd6;
+                                                    padding:10px;
+                                                    margin-bottom:10px;
+                                                    text-align:center;
+                                                    border-radius:3px;">
+
+                                                    <h3 style="
+                                                        font-size:22px;
+                                                        margin:0;
+                                                        font-weight:bold;">
+
+                                                        @Model.TotalSuppCount
+
+                                                    </h3>
+
+                                                    <p style="
+                                                        margin:3px 0 0 0;
+                                                        font-size:12px;
+                                                        font-weight:bold;">
+
+                                                        Total Suppliers
+
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- TOTAL ITEMS -->
+                                            <div class="col-md-6 col-sm-6">
+
+                                                <div style="
+                                                    background:#34495E;
+                                                    color:white;
+                                                    border:1px solid #008d4c;
+                                                    padding:10px;
+                                                    margin-bottom:10px;
+                                                    text-align:center;
+                                                    border-radius:3px;">
+
+                                                    <h3 style="
+                                                        font-size:22px;
+                                                        margin:0;
+                                                        font-weight:bold;">
+
+                                                        @Model.TotalItemCount
+
+                                                    </h3>
+
+                                                    <p style="
+                                                        margin:3px 0 0 0;
+                                                        font-size:12px;
+                                                        font-weight:bold;">
+
+                                                        Total Items
+
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <!-- SUPPLIER TABLE -->
+                                        <div style="
+                                            width:100%;
+                                            height:300px;
+                                            overflow-y:auto;
+                                            border:1px solid #ddd;">
+
+                                            <table class="table table-bordered table-hover"
+                                                   style="
+                                                    width:100%;
+                                                    table-layout:fixed;
+                                                    margin-bottom:0;">
+
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:65%;">
+                                                            Supplier Name
+                                                        </th>
+                                                        <th style="width:35%;">
+                                                            Item Count
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody id="itemBody">
+
+                                                    @if (Model.SupplierList != null &&
+                                                         Model.SupplierList.Count > 0)
+                                                    {
+                                                        foreach (var supplier in Model.SupplierList)
+                                                        {
+                                                            <tr>
+
+                                                                <td style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                                                                    @supplier.SupplierName
+                                                                </td>
+
+                                                                <td>
+                                                                    @supplier.ItemCount
+                                                                </td>
+
+                                                            </tr>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <tr class="noDataRow">
+
+                                                            <td colspan="2"
+                                                                class="text-center">
+
+                                                                No supplier data available
+
+                                                            </td>
+
+                                                        </tr>
+                                                    }
+
+                                                </tbody>
+
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                        </div>
+
+
+                        <!-- ============ CUSTOMER (RIGHT HALF) ============ -->
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+
+                            <section id="CustomerWiseItems">
+
+                                <div class="box box-info">
+
+                                    <!-- Header -->
+                                    <div class="box-header with-border">
+
+                                        <h3 class="box-title">
+                                            Customer Wise Items
+                                        </h3>
+
+                                    </div>
+
+
+                                    <!-- Body -->
+                                    <div class="box-body"
+                                         style="padding:10px;">
+
+                                        <div class="row">
+
+                                            <!-- TOTAL CUSTOMERS -->
+                                            <div class="col-md-6 col-sm-6">
+
+                                                <div style="
+                                                    background:#2563EB;
+                                                    color:white;
+                                                    border:1px solid #00acd6;
+                                                    padding:10px;
+                                                    margin-bottom:10px;
+                                                    text-align:center;
+                                                    border-radius:3px;">
+
+                                                    <h3 style="
+                                                        font-size:22px;
+                                                        margin:0;
+                                                        font-weight:bold;">
+
+                                                        @Model.TotalCustCount
+
+                                                    </h3>
+
+                                                    <p style="
+                                                        margin:3px 0 0 0;
+                                                        font-size:12px;
+                                                        font-weight:bold;">
+
+                                                        Total Customers
+
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+
+                                            <!-- TOTAL ITEMS -->
+                                            <div class="col-md-6 col-sm-6">
+
+                                                <div style="
+                                                    background:#D35400;
+                                                    color:white;
+                                                    border:1px solid #008d4c;
+                                                    padding:10px;
+                                                    margin-bottom:10px;
+                                                    text-align:center;
+                                                    border-radius:3px;">
+
+                                                    <h3 style="
+                                                        font-size:22px;
+                                                        margin:0;
+                                                        font-weight:bold;">
+
+                                                        @Model.TotalItemCount
+
+                                                    </h3>
+
+                                                    <p style="
+                                                        margin:3px 0 0 0;
+                                                        font-size:12px;
+                                                        font-weight:bold;">
+
+                                                        Total Items
+
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <!-- CUSTOMER TABLE -->
+                                        <div style="
+                                            width:100%;
+                                            height:300px;
+                                            overflow-y:auto;
+                                            border:1px solid #ddd;">
+
+                                            <table class="table table-bordered table-hover"
+                                                   style="
+                                                    width:100%;
+                                                    table-layout:fixed;
+                                                    margin-bottom:0;">
+
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:65%;">
+                                                            Customer Name
+                                                        </th>
+                                                        <th style="width:35%;">
+                                                            No of Items
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+
+
+                                                <tbody id="custItemBody">
+
+                                                    @if (Model.CustomerList != null &&
+                                                         Model.CustomerList.Count > 0)
+                                                    {
+                                                        foreach (var customer in Model.CustomerList)
+                                                        {
+                                                            <tr>
+
+                                                                <td style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                                                                    @customer.CustName
+                                                                </td>
+
+                                                                <td>
+                                                                    @customer.ItemCount
+                                                                </td>
+
+                                                            </tr>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <tr class="noDataRow">
+
+                                                            <td colspan="2"
+                                                                class="text-center">
+
+                                                                No customer data available
+
+                                                            </td>
+
+                                                        </tr>
+                                                    }
+
+                                                </tbody>
+
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</div>

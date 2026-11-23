@@ -1,0 +1,273 @@
+Log Date = 17-09-2026 12:18:46
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 17-09-2026 12:18:51
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:18:59
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:18:59
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:00
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:00
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 17-09-2026 12:19:05
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= MasterCtrl-Edit Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= ItemMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= ItemMasterDAL- GetById Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:07
+Step= MasterCtrl-Edit Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:18
+Step= Inside ItemMasterModalApr2026 model ItemNameDuplicateCheckCustomeValidation - Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:18
+Step= Inside If- Value not Null : Hitachi Laptop
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= MasterCtrl-Edit Action(httppost)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:19:19
+Step= MasterCtrl-Edit Action(httppost)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:17
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 17-09-2026 12:42:19
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:29
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:29
+Step= ItemMasterBAL- GetAllItemList Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:30
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:30
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:30
+Step= ItemMasterBAL- GetAllItemList Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:42:30
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 17-09-2026 12:42:34
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:11
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 17-09-2026 12:44:11
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 17-09-2026 12:44:20
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetItemCodes Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetManufacturers Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetManufacturerDetails Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetCategories Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetCategoriesDetails Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetManufacturerDetails Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetManufacturers Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetItemNames Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetColours Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetAllColours Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetCategoriesDetails Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetCategories Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetItemCodes Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetItemCodes Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetAllColours Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetColours Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetUnits Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetUnitDetails Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetUnitDetails Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetUnits Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterBAL- GetItemNames Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:21
+Step= ItemMasterJWApiController- GetItemNames Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterJWApiController- GetItemById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterBAL- GetItemById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterDAL- GetById Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterBAL- GetItemById Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterJWApiController- GetItemById Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterJWApiController- GetSubCategories Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterBAL- GetSubCategoriesDetails Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterBAL- GetSubCategoriesDetails Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 17-09-2026 12:44:26
+Step= ItemMasterJWApiController- GetSubCategories Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------

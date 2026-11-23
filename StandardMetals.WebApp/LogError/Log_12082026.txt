@@ -1,0 +1,266 @@
+Log Date = 12-08-2026 09:44:30
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 09:44:32
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 09:44:43
+Step= Search Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:01:32
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:01:35
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:01:48
+Step= Search Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:01:51
+Step= Update Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:01:54
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:01:58
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:02:10
+Step= Search Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:02:17
+Step= Update Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:02:20
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:02:26
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:35:15
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:35:17
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:36:57
+Step= Save Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 12-08-2026 10:36:58
+Error = Invalid Branch Name.
+Stack Trace =    at StandardMetals.DAL.CustomerMasterMVCApril2026DAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.DAL\CustomerMasterMVCApril2026DAL.cs:line 226
+   at StandardMetals.BAL.CustomerMasterMVCApril2026BAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model model) in D:\Project\StandartMetalsERP\StandardMetals.BAL\CustomerMasterMVCApril2026BAL.cs:line 37
+   at StandardMetals.WebApp.Controllers.MasterController.SaveCustomerApril2026(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Controllers\MasterController.cs:line 715
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:37:07
+Step= Save Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 12-08-2026 10:37:08
+Error = Invalid Branch Name.
+Stack Trace =    at StandardMetals.DAL.CustomerMasterMVCApril2026DAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.DAL\CustomerMasterMVCApril2026DAL.cs:line 226
+   at StandardMetals.BAL.CustomerMasterMVCApril2026BAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model model) in D:\Project\StandartMetalsERP\StandardMetals.BAL\CustomerMasterMVCApril2026BAL.cs:line 37
+   at StandardMetals.WebApp.Controllers.MasterController.SaveCustomerApril2026(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Controllers\MasterController.cs:line 715
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:37:16
+Step= Search Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:39:22
+Step= Update Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 12-08-2026 10:39:23
+Error = Procedure or function 'UpdateCustomerMaster' expects parameter '@Remarks', which was not supplied.
+Stack Trace =    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StandardMetals.DAL.CustomerMasterMVCApril2026DAL.UpdateCustomerMaster(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.DAL\CustomerMasterMVCApril2026DAL.cs:line 287
+   at StandardMetals.BAL.CustomerMasterMVCApril2026BAL.UpdateCustomerMaster(CustomerMasterMVCApril2026Model model) in D:\Project\StandartMetalsERP\StandardMetals.BAL\CustomerMasterMVCApril2026BAL.cs:line 46
+   at StandardMetals.WebApp.Controllers.MasterController.UpdateCustomerApril2026(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Controllers\MasterController.cs:line 755
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 10:39:42
+Step= Update Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 12:13:36
+Step= SupplierMasterApril2026 GET method started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 12:13:37
+Step= SupplierMasterApril2026 GET method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 12:13:53
+Step= GetSupplierDetailsByCode method started. Supplier Code: 02
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 12:13:54
+Step= GetSupplierDetailsByCode method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 12:15:36
+Step= SupplierMasterApril2026 GET method started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 12:15:37
+Step= SupplierMasterApril2026 GET method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:25
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:25
+Step= BindCustomer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:27
+Step= BindCustomer Method Completed Successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:27
+Step= BindState Method Started. CountryId = 0
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:27
+Step= BindState Method Completed Successfully. CountryId = 0
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:27
+Step= SaveCustomerMaster Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:32:27
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:34:17
+Step= Save Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:34:17
+Step= SaveCustomerMaster Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 12-08-2026 15:34:18
+Error = Invalid Branch Name.
+Stack Trace =    at StandardMetals.DAL.CustomerMasterMVCApril2026DAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.DAL\CustomerMasterMVCApril2026DAL.cs:line 171
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 12-08-2026 15:34:18
+Error = Invalid Branch Name.
+Stack Trace =    at StandardMetals.DAL.CustomerMasterMVCApril2026DAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.DAL\CustomerMasterMVCApril2026DAL.cs:line 245
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 12-08-2026 15:34:18
+Error = Invalid Branch Name.
+Stack Trace =    at StandardMetals.DAL.CustomerMasterMVCApril2026DAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.DAL\CustomerMasterMVCApril2026DAL.cs:line 257
+   at StandardMetals.BAL.CustomerMasterMVCApril2026BAL.SaveCustomerMaster(CustomerMasterMVCApril2026Model model) in D:\Project\StandartMetalsERP\StandardMetals.BAL\CustomerMasterMVCApril2026BAL.cs:line 28
+   at StandardMetals.WebApp.Controllers.MasterController.SaveCustomerApril2026(CustomerMasterMVCApril2026Model obj) in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Controllers\MasterController.cs:line 725
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:34:41
+Step= Search Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:34:41
+Step= GetCustomerMasterById Method Started. Id = 15575
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:34:41
+Step= GetCustomerMasterById Method Completed Successfully. Id = 15575
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:01
+Step= Update Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:06
+Step= CustomerMaster List Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:06
+Step= BindCustomer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:07
+Step= BindCustomer Method Completed Successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:07
+Step= BindState Method Started. CountryId = 0
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:07
+Step= BindState Method Completed Successfully. CountryId = 0
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:07
+Step= SaveCustomerMaster Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:08
+Step= CustomerMaster List Method Completed successful.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:17
+Step= Search Customer Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:17
+Step= GetCustomerMasterById Method Started. Id = 15575
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 15:35:18
+Step= GetCustomerMasterById Method Completed Successfully. Id = 15575
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:34
+Step= SupplierMasterApril2026 GET method started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:34
+Step= BindSupplierCode Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:34
+Step= BindSupplierCode Method Completed Successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:34
+Step= BindSupplierName Method Started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:34
+Step= BindSupplierName Method Completed Successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:34
+Step= SupplierMasterApril2026 GET method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:43
+Step= GetSupplierDetailsByCode method started. Supplier Code: ZZV002
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:43
+Step= GetSupplierDetailsByCode Method Started. SuppCode = ZZV002
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:43
+Step= GetSupplierDetailsByCode Method Completed Successfully. SuppCode = ZZV002
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 16:28:43
+Step= GetSupplierDetailsByCode method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:05
+Step= SupplierMasterApril2026 GET method started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:05
+Step= Bind SupplierCode Method Started
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:05
+Step= Bind SupplierName Method Started
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:05
+Step= SupplierMasterApril2026 GET method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:18
+Step= GetSupplierDetailsByCode method started. Supplier Code: SM5589
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:18
+Step= GetSupplierDetailsByCode Method Started. SuppCode = SM5589
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 17:08:18
+Step= GetSupplierDetailsByCode method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:25
+Step= SupplierMasterApril2026 GET method started.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:26
+Step= Bind SupplierCode Method StartedDAL
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:26
+Step= Bind SupplierNameDAL Method Started
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:26
+Step= SupplierMasterApril2026 GET method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:35
+Step= GetSupplierDetailsByCode method started. Supplier Code: reg
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:35
+Step= GetSupplierDetailsByCodeDAL Method Started. SuppCode = reg
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 12-08-2026 18:09:35
+Step= GetSupplierDetailsByCode method completed successfully.
+---------------------------------------xxxxxxxx------------------------------------

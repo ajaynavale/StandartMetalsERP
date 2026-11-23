@@ -1,0 +1,36 @@
+Log Date = 26-08-2026 10:32:45
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:33:25
+Step= MasterCtrl- Customer -CustomerListApril2026 Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:33:25
+Step= MasterCtrl- Customer -BindDrp Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:33:25
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:34:46
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:35:00
+Step= MasterCtrl- Customer -CustomerListApril2026 Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:35:00
+Step= MasterCtrl- Customer -BindDrp Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:35:00
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:41:24
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:41:43
+Step= MasterCtrl- Customer -CustomerListApril2026 Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:41:43
+Step= MasterCtrl- Customer -BindDrp Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 26-08-2026 10:41:43
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------

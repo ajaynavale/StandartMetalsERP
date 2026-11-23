@@ -1,0 +1,363 @@
+﻿@model StandardMetals.MODEL.CustomerMasterModelApril2026
+
+@{
+    ViewBag.Title = "CustomerListApril2026";
+}
+
+<br />
+
+<div class="container-fluid">
+
+    <!------------------- SEARCH PANEL --------------------->
+
+    <div class="panel panel-primary">
+
+        <div class="panel-heading">
+            <h4>Search</h4>
+        </div>
+
+        <div class="panel-body">
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label style="margin-top:7px;">Customer Name</label>
+                </div>
+
+                <div class="col-md-5">
+
+                    @Html.DropDownList("SearchCustomer", ViewBag.CustomerList as SelectList, "Select Customer", new { @class = "form-control", id = "ddlSearchCustomer" })
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <input type="button" id="btnSearch" value="Search" class="btn btn-primary" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br />
+
+
+
+    <!---------------- INFORMATION PANEL ---------------->
+
+    <div class="panel panel-primary">
+
+        <div class="panel-heading">
+
+            <h4>Information</h4>
+
+        </div>
+
+        <div class="panel-body">
+
+            @Html.HiddenFor(m => m.Id, new { id = "hdnId" })
+
+
+
+            <!------------ Row 1 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Customer Code</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.CustCode, new { @class = "form-control", id = "txtCustCode", @readonly = "readonly" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>Customer Name</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.CustName, new { @class = "form-control", id = "txtCustName" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+
+            <!------------ Row 2 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Contact Person</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.ContactPerson, new { @class = "form-control", id = "txtContactPerson" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>Branch</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.DropDownListFor(m => m.BranchId, ViewBag.BranchList as SelectList, "Select Branch", new { @class = "form-control", id = "ddlBranch" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+
+            <!------------ Row 3 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Address 1</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.Address1, new { @class = "form-control", id = "txtAddress1" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>Address 2</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.Address2, new { @class = "form-control", id = "txtAddress2" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+            <!------------ Row 4 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>City</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.DropDownListFor(m => m.CityId, ViewBag.CityList as SelectList, "Select City", new { @class = "form-control", id = "ddlCity" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>State</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.DropDownListFor(m => m.StateId, ViewBag.StateList as SelectList, "Select State", new { @class = "form-control", id = "ddlState" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+            <!------------ Row 5 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Pin Code</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.PinCode, new { @class = "form-control", id = "txtPinCode" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>Country</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.DropDownListFor(m => m.CountryId, ViewBag.CountryList as SelectList, "Select Country", new { @class = "form-control", id = "ddlCountry" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+            <!------------ Row 6 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Email ID</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.EmailId, new { @class = "form-control", id = "txtEmailId", type = "email" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>Telephone</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.Telephone, new { @class = "form-control", id = "txtTelephone" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+            <!------------ Row 7 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Mobile</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.Mobile, new { @class = "form-control", id = "txtMobile" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>Fax</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.Fax, new { @class = "form-control", id = "txtFax" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+            <!------------ Row 8 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Website</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.WebSite, new { @class = "form-control", id = "txtWebsite" })
+
+                </div>
+
+                <div class="col-md-2">
+                    <label>GSTIN</label>
+                </div>
+
+                <div class="col-md-4">
+
+                    @Html.TextBoxFor(m => m.GSTIN, new { @class = "form-control", id = "txtGSTIN" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+            <!------------ Row 9 ------------>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label>Remarks</label>
+                </div>
+
+                <div class="col-md-10">
+
+                    @Html.TextAreaFor(m => m.Remarks, 3, 100, new { @class = "form-control", id = "txtRemarks" })
+
+                </div>
+
+            </div>
+
+            <br />
+
+
+            <!------------ Buttons ------------>
+
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+
+                    <input type="button" id="btnNew" value="Clear" class="btn btn-success" />
+
+                    <input type="button" id="btnSave" value="Save" class="btn btn-primary" />
+
+                    <input type="button" id="btnUpdate" value="Update" class="btn btn-warning" />
+
+                    <input type="button" id="btnCancel" value="Cancel" class="btn btn-danger" />
+
+                    <input type="button" id="btnEmpWiseReport" value="Customer Wise Report" class="btn btn-warning" />
+
+                    <input type="button" id="btnAllEmpReport" value="All Customer Report" class="btn btn-warning" />
+
+                    <input type="button" id="btnPreview" value="Preview" class="btn btn-info" />
+
+                </div>
+
+            </div>
+
+            <br />
+
+        </div>   <!-- panel-body -->
+
+    </div>       <!-- panel -->
+
+</div>           <!-- container-fluid -->
+
+
+@section Scripts
+{
+
+    <!-- jQuery -->
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    @*<script src="~/Scripts/bootstrap.min.js"></script>*@
+
+    <!-- Customer Master jQuery File -->
+    <script src="~/Scripts/CustomerMaster.js?v=@DateTime.Now.Ticks"></script>
+
+
+}

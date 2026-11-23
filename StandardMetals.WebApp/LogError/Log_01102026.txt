@@ -1,0 +1,216 @@
+Log Date = 01-10-2026 11:53:46
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:53:46
+Step= DefaultDashBoard_DAL- GetSupplierWiseCount Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:53:46
+Step= DefaultDashBoard_DAL- GetSupplierWiseCount Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:53:46
+Step= DefaultDashBoard_DAL- GetCustomerWiseCount Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:53:46
+Step= DefaultDashBoard_DAL- GetCustomerWiseCount Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 01-10-2026 11:53:47
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:12
+Step= SupplierController- SuppList Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:12
+Step= SupplierMasterBal- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:12
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:12
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:12
+Step= SupplierMasterBal- GetAllSupplier Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:12
+Step= SupplierController- SuppList Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 01-10-2026 11:54:13
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= SupplierController- EditSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= MasterCtrl- Customer -BindDrp Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetBranch Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetBranch Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetBrand Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetBranch Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetCountries Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetCountries Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetCountries Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetCountries Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetStates Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetSataes Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetStates Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetStates Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetCities Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetCities Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterDAL- GetCities Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= CustomerMasterBAL- GetCities Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= MasterCtrl- Customer -BindDrp Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= SupplierMasterBal- GetByIdSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= SupplierMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= SupplierMasterDAL- GetById Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= SupplierMasterBal- GetByIdSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:16
+Step= SupplierController- EditSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:21
+Step= SupplierController- EditSupplier POST Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 01-10-2026 11:54:21
+Step= SupplierController- EditSupplier POST Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 01-10-2026 11:54:29
+Error = The ViewData item that has the key 'BranchId' is of type 'System.Int32' but must be of type 'IEnumerable<SelectListItem>'.
+Stack Trace =    at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+   at System.Web.Mvc.Html.SelectExtensions.SelectInternal(HtmlHelper htmlHelper, ModelMetadata metadata, String optionLabel, String name, IEnumerable`1 selectList, Boolean allowMultiple, IDictionary`2 htmlAttributes)
+   at System.Web.Mvc.Html.SelectExtensions.DropDownListFor[TModel,TProperty](HtmlHelper`1 htmlHelper, Expression`1 expression, IEnumerable`1 selectList, String optionLabel, IDictionary`2 htmlAttributes)
+   at System.Web.Mvc.Html.SelectExtensions.DropDownListFor[TModel,TProperty](HtmlHelper`1 htmlHelper, Expression`1 expression, IEnumerable`1 selectList, String optionLabel, Object htmlAttributes)
+   at ASP._Page_Views_Master__EditSupplier_cshtml.Execute() in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Views\Master\_EditSupplier.cshtml:line 88
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c.<BeginExecute>b__151_2(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 01-10-2026 11:54:40
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 01-10-2026 11:54:42
+Error = The controller for path '/bo' was not found or does not implement IController.
+Stack Trace =    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+---------------------------------------xxxxxxxx------------------------------------

@@ -1,0 +1,98 @@
+﻿@model List<StandardMetals.MODEL.LoggedInUserModelApril26>
+
+    @{
+    ViewBag.Title = "LoggedInUsers";
+    }
+
+    <div class="container-fluid">
+
+        ```
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="panel panel-info">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <i class="fa fa-users"></i> Logged In Users
+                        </h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <div class="table-responsive">
+
+                            <table class="table table-bordered table-striped table-hover">
+
+                                <thead>
+                                    <tr>
+                                        <th>User Name</th>
+                                        <th class="text-center">Action</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                    <tr>
+                                        <td>
+                                            <strong>@item.UserName</strong>
+                                        </td>
+
+                                        <td class="text-center">
+
+                                            @if (item.IsLoggedIn)
+                                            {
+                                            <form action="@Url.Action("LogoutLoginUser", "Admin" )"
+                                                  method="post"
+                                                  style="display:inline;">
+
+                                                <input type="hidden"
+                                                       name="LoginUserId"
+                                                       value="@item.LoginUserId" />
+
+                                                <button type="submit"
+                                                        class="btn btn-danger btn-sm">
+                                                    <i class="fa fa-sign-out"></i>
+                                                    Logout
+                                                </button>
+
+                                            </form>
+                                            }
+                                            else
+                                            {
+                                            <span class="label label-default">
+                                                Not Logged In
+                                            </span>
+                                            }
+
+                                        </td>
+                                    </tr>
+                                    }
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        ```
+
+    </div>
+
+    @section scripts
+    {
+    <script>
+        $(document).ready(function () {
+
+            ```
+            });
+    </script>
+    ```
+
+    }

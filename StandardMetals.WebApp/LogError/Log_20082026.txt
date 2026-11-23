@@ -1,0 +1,915 @@
+Log Date = 20-08-2026 10:21:29
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 10:21:41
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 10:21:41
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 10:21:46
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 10:59:59
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:00:13
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:00:14
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:00:14
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:00:14
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 20-08-2026 11:00:15
+Error = C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\d7f77dea\31e0de4\App_Web_itemlist17dec.cshtml.a8b09a0.7we0ssd4.0.cs(31): error CS0234: The type or namespace name 'ItemMaster_Modal_AprBtch' does not exist in the namespace 'StandardMetals.MODEL' (are you missing an assembly reference?)
+Stack Trace =    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:01:10
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:01:10
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:01:10
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:01:10
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:02:07
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:02:07
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:02:07
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:02:07
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:27:32
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:27:41
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:27:41
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:27:42
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:27:42
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:29:29
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:29:29
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:29:29
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:29:29
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:34:57
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:34:57
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:34:57
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:34:57
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:04
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= MasterCtrl-Edit Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= ItemMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= ItemMasterDAL- GetById Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:35:36
+Step= MasterCtrl-Edit Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 11:45:37
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:10
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:21
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:21
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:21
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:21
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:10:29
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:33
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:40
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:40
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:41
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:41
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:18:48
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:32
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:45
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:45
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:45
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:45
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:30:51
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:32
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:32
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:32
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:32
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:55:38
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:16
+Step= MasterCtrl-AddNewItems Action(httppost)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:16
+Step= ItemMasterDAL- Save Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 20-08-2026 12:57:16
+Error = Procedure or function 'Insert_ItemWithSuppiler' expects parameter '@ItemName', which was not supplied.
+Stack Trace =    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at StandardMetals.DAL.ItemMasterDALApril2026.SaveNewItemDetails(ItemMasterModalApril2026 model) in D:\Project\StandartMetalsERP\StandardMetals.DAL\ItemMasterDALApril2026.cs:line 122
+   at StandardMetals.BAL.ItemMasterBALApril2026.SaveNewItem(ItemMasterModalApril2026 model) in D:\Project\StandartMetalsERP\StandardMetals.BAL\ItemMasterBALApril2026.cs:line 28
+   at StandardMetals.WebApp.Controllers.MasterController.AddNewItems(ItemMasterModalApril2026 model) in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Controllers\MasterController.cs:line 603
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:18
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:18
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:18
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:18
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:24
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:44
+Step= Master Ctrl- GetSubCategoryN Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 12:57:44
+Step= Master Ctrl- GetSubCategoryN Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:03
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:03
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:03
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:03
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 13:00:07
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:09:58
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:05
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:05
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:05
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:05
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:10
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:10:21
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:19
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:19
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:20
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:20
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:13:25
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:09
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:09
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:09
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:09
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:14:16
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:35
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:35
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:36
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:36
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:20:42
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:22:05
+Step= Master Ctrl- GetSubCategoryN Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:22:05
+Step= Master Ctrl- GetSubCategoryN Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:01
+Step= MasterCtrl-AddNewItems Action(httppost)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:01
+Step= ItemMasterDAL- Save Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:01
+Step= ItemMasterDAL- Save Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:03
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:03
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:03
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:03
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= MasterCtrl-Edit Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= ItemMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= ItemMasterDAL- GetById Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:23:09
+Step= MasterCtrl-Edit Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 14:39:13
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:37
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:37
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:37
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:37
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:18:47
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:20
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:20
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:20
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:20
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:27
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:52
+Step= MasterCtrl-AddNewItems Action(httppost)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:52
+Step= ItemMasterDAL- Save Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+----------------------------------Exception-----------------------------------------
+Log Date = 20-08-2026 15:20:52
+Error = Procedure or function 'Insert_ItemWithSuppiler' expects parameter '@ItemName', which was not supplied.
+Stack Trace =    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at StandardMetals.DAL.ItemMasterDALApril2026.SaveNewItemDetails(ItemMasterModalApril2026 model) in D:\Project\StandartMetalsERP\StandardMetals.DAL\ItemMasterDALApril2026.cs:line 122
+   at StandardMetals.BAL.ItemMasterBALApril2026.SaveNewItem(ItemMasterModalApril2026 model) in D:\Project\StandartMetalsERP\StandardMetals.BAL\ItemMasterBALApril2026.cs:line 28
+   at StandardMetals.WebApp.Controllers.MasterController.AddNewItems(ItemMasterModalApril2026 model) in D:\Project\StandartMetalsERP\StandardMetals.WebApp\Controllers\MasterController.cs:line 603
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:53
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:20:53
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:21:05
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:21:05
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:24:32
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 15:29:16
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:33
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:46
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:46
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:46
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:46
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= MasterCtrl-AddNewItems Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= AddNewItems - SubCategoriess Load
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:19:54
+Step= MasterCtrl-AddNewItems Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:06
+Step= Master Ctrl- GetSubCategoryN Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:06
+Step= Master Ctrl- GetSubCategoryN Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:38
+Step= MasterCtrl-AddNewItems Action(httppost)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:38
+Step= ItemMasterDAL- Save Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:38
+Step= ItemMasterDAL- Save Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:41
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:41
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:41
+Step= ItemMasterDAL- GetAllItemMasterDal Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:41
+Step= Master Ctrl- ItemList17Dec Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:46
+Step= MasterCtrl-Edit Action(httpget)- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:46
+Step= ItemMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:47
+Step= ItemMasterDAL- GetById Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:47
+Step= MasterCtrl-Item -LoadDropDowns Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:47
+Step= MasterCtrl- Item -LoadDropDowns Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:47
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:47
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 20-08-2026 19:23:47
+Step= MasterCtrl-Edit Action(httpget)- Start-End
+---------------------------------------xxxxxxxx------------------------------------

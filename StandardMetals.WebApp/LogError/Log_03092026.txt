@@ -1,0 +1,93 @@
+Log Date = 03-09-2026 11:50:45
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 15:11:35
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 15:25:46
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:55
+Step= MasterCtrl- Customer -CustomerListApril2026 Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:55
+Step= MasterCtrl- Customer -BindDrp Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:55
+Step= CustomerMasterDAL- GetAllCustomer Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetAllCustomer Action- Start-Success
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetBranch Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetBrand Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetCountries Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetCountries Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetSataes Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetStates Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetCities Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= CustomerMasterDAL- GetCities Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= MasterCtrl- Customer -BindDrp Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:07:56
+Step= MasterCtrl- Customer -CustomerListApril2026 Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:14
+Step= MasterCtrl- Customer -Search Action
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:14
+Step= CustomerMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:14
+Step= CustomerMasterDAL- GetById Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:22
+Step= MasterCtrl- Customer -Update Action
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:22
+Step= CustomerMasterDAL- Update Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:22
+Step= CustomerMasterDAL- Update Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:30
+Step= MasterCtrl- Customer -Search Action
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:30
+Step= CustomerMasterDAL- GetById Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:30
+Step= CustomerMasterDAL- GetById Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:46
+Step= SupplierMasterDAL- GetAllSupplier Action- Start
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:08:46
+Step= SupplierMasterDAL- GetAllSupplier Action- Start-End
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:20:10
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:35:04
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------
+Log Date = 03-09-2026 16:37:29
+Step= Master Ctrl- DefaultDashboard Action(httpget)
+---------------------------------------xxxxxxxx------------------------------------

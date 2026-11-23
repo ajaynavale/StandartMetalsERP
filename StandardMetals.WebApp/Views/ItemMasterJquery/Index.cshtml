@@ -1,0 +1,433 @@
+﻿@{
+    ViewBag.Title = "Item Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Add this file to: StandardMetals.WebApp/Views/ItemMasterJquery/Index.cshtml -->
+
+<style>
+    .im-panel {
+        background: #fff;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+
+    .im-panel-header {
+        background: #2f7ea8;
+        color: #fff;
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        border-bottom: 3px solid #1cb3d6;
+    }
+
+    .im-panel-body {
+        padding: 20px;
+    }
+
+    .im-row-grid {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 18px;
+    }
+
+    .im-field {
+        flex: 1;
+        min-width: 220px;
+    }
+
+        .im-field label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #333;
+        }
+
+        .im-field select, .im-field input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+            .im-field input[readonly] {
+                background: #eee;
+            }
+
+    .im-search-row {
+        display: flex;
+        gap: 20px;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+        .im-search-row .im-field {
+            max-width: 320px;
+        }
+
+    .im-btn {
+        padding: 9px 22px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .im-btn-primary {
+        background: #3f8ec1;
+        color: #fff;
+    }
+
+    .im-btn-save {
+        background: #2e9e4f;
+        color: #fff;
+    }
+
+    .im-btn-update {
+        background: #e0a01e;
+        color: #fff;
+    }
+
+    .im-btn-clear {
+        background: #999;
+        color: #fff;
+    }
+
+    .im-btn-row {
+        padding: 15px 20px;
+        text-align: right;
+        border-top: 1px solid #eee;
+    }
+
+        .im-btn-row .im-btn {
+            margin-left: 10px;
+        }
+
+    #imMsg {
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+
+        #imMsg.success {
+            color: #2e9e4f;
+        }
+
+        #imMsg.error {
+            color: #c0392b;
+        }
+</style>
+
+<!-- SEARCH PANEL -->
+<div class="im-panel">
+    <div class="im-panel-header">Item Information</div>
+    <div class="im-panel-body">
+        <div class="im-search-row">
+            <div class="im-field">
+                <label>Item Code</label>
+                <select id="ddlSearchItemCode">
+                    <option value="">--Select--</option>
+                </select>
+            </div>
+            <div class="im-field">
+                <label>Item Name</label>
+                <select id="ddlSearchItemName">
+                    <option value="">--Select--</option>
+                </select>
+            </div>
+            <div class="im-field" style="max-width:120px;">
+                <button type="button" id="btnSearch" class="im-btn im-btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="imMsg"></div>
+
+<!-- DETAIL PANEL -->
+<div class="im-panel">
+    <div class="im-panel-header">Item Information</div>
+    <div class="im-panel-body">
+
+        <input type="hidden" id="hdnItemId" value="0" />
+
+        <div class="im-row-grid">
+            <div class="im-field">
+                <label>Item Code</label>
+                <input type="text" id="txtItemCode" readonly />
+            </div>
+            <div class="im-field">
+                <label>Item Name</label>
+                <input type="text" id="txtItemName" />
+            </div>
+        </div>
+
+        <div class="im-row-grid">
+            <div class="im-field">
+                <label>Manufacturer</label>
+                <select id="ddlManufacturer"><option value="0">--Select--</option></select>
+            </div>
+            <div class="im-field">
+                <label>Material</label>
+                <input type="text" id="txtMaterial" />
+            </div>
+        </div>
+
+        <div class="im-row-grid">
+            <div class="im-field">
+                <label>Item Category</label>
+                <select id="ddlCategory"><option value="0">--Select--</option></select>
+            </div>
+            <div class="im-field">
+                <label>Subcategory</label>
+                <select id="ddlSubCategory"><option value="0">Select Category First</option></select>
+            </div>
+        </div>
+
+        <div class="im-row-grid">
+            <div class="im-field">
+                <label>Color</label>
+                <select id="ddlColour"><option value="0">--Select--</option></select>
+            </div>
+            <div class="im-field">
+                <label>UOM</label>
+                <select id="ddlUnit"><option value="0">--Select--</option></select>
+            </div>
+        </div>
+
+        <div class="im-row-grid">
+            <div class="im-field">
+                <label>HSN Code</label>
+                <input type="text" id="txtHsnCode" />
+            </div>
+            <div class="im-field">
+                <label>Purchase Cost</label>
+                <input type="number" step="0.01" id="txtPurchaseCost" />
+            </div>
+        </div>
+
+        <div class="im-row-grid">
+            <div class="im-field">
+                <label>GST Rate</label>
+                <input type="number" step="0.01" id="txtGstRate" />
+            </div>
+            <div class="im-field">
+                <label>Selling Price</label>
+                <input type="number" step="0.01" id="txtSellingPrice" />
+            </div>
+        </div>
+
+    </div>
+    <div class="im-btn-row">
+        <button type="button" id="btnSave" class="im-btn im-btn-save">Save</button>
+        <button type="button" id="btnUpdate" class="im-btn im-btn-update">Update</button>
+        <button type="button" id="btnClear" class="im-btn im-btn-clear">Clear</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            // ============ CHANGE THIS TO YOUR WEB API BASE URL ============
+            var apiBase = "http://localhost:62335/api/ItemMaster";
+            // =================================================================
+
+            // Populate BOTH search dropdowns from the same item list
+            $.ajax({
+                url: apiBase + "/FillItemMaster",
+                type: "GET",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, item) {
+                        $("#ddlSearchItemCode").append(
+                            $("<option>").val(item.itemCode).text(item.itemCode)
+                        );
+                        $("#ddlSearchItemName").append(
+                            $("<option>").val(item.itemName).text(item.itemName)
+                        );
+                    });
+                },
+                error: function () { showMsg("Failed to load Item list", true); }
+            });
+
+            loadDropdown(apiBase + "/BindManfacturer", "#ddlManufacturer", "manufacturerId", "manufacturerName", "Manufacturer");
+            loadDropdown(apiBase + "/BindColor", "#ddlColour", "colourId", "colourName", "Colour");
+            loadDropdown(apiBase + "/BindUom", "#ddlUnit", "unitId", "unitName", "Unit");
+            loadDropdown(apiBase + "/BindCategory", "#ddlCategory", "categoryId", "categoryName", "Category");
+
+            function loadDropdown(url, target, valueField, textField, label) {
+                $.ajax({
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        var $target = $(target);
+                        $.each(data, function (i, item) {
+                            $target.append(
+                                $("<option>").val(item[valueField]).text(item[textField])
+                            );
+                        });
+                    },
+                    error: function () { showMsg("Failed to load " + label + " list", true); }
+                });
+            }
+
+            // Cascading SubCategory on Category change
+            $("#ddlCategory").on("change", function () {
+                var categoryId = $(this).val();
+                $("#ddlSubCategory").empty().append('<option value="0">--Select--</option>');
+                if (categoryId && categoryId != "0") {
+                    $.ajax({
+                        url: apiBase + "/BindSubCategory1?CategoryId=" + categoryId,
+                        type: "GET",
+                        dataType: "json",
+                        success: function (data) {
+                            $.each(data, function (i, item) {
+                                $("#ddlSubCategory").append(
+                                    $("<option>").val(item.subCategoryId).text(item.subCategoryName)
+                                );
+                            });
+                        },
+                        error: function () { showMsg("Failed to load Subcategory list", true); }
+                    });
+                } else {
+                    $("#ddlSubCategory").empty().append('<option value="0">Select Category First</option>');
+                }
+            });
+
+            // SEARCH — by Item Code first, falls back to Item Name
+            $("#btnSearch").on("click", function () {
+                var itemCode = $("#ddlSearchItemCode").val();
+                var itemName = $("#ddlSearchItemName").val();
+
+                if (!itemCode && !itemName) {
+                    showMsg("Please select an Item Code or Item Name to search", true);
+                    return;
+                }
+
+                var url = itemCode
+                    ? apiBase + "/SearchItemMaster?ItemCode=" + encodeURIComponent(itemCode)
+                    : apiBase + "/SearchItemMasterByName?ItemName=" + encodeURIComponent(itemName);
+
+                $.ajax({
+                    url: url,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (item) {
+                        if (!item || !item.itemCode) {
+                            showMsg("Item not found", true);
+                            return;
+                        }
+                        populateForm(item);
+                        showMsg("Item loaded successfully", false);
+                    },
+                    error: function () { showMsg("Search failed", true); }
+                });
+            });
+
+            function populateForm(item) {
+                $("#hdnItemId").val(item.id || 0);
+                $("#txtItemCode").val(item.itemCode);
+                $("#txtItemName").val(item.itemName);
+                $("#txtMaterial").val(item.material);
+                $("#txtHsnCode").val(item.hsncode);
+                $("#txtGstRate").val(item.gsTRate);
+                $("#txtPurchaseCost").val(item.purchaseCost);
+                $("#txtSellingPrice").val(item.sellingPrice);
+
+                $("#ddlManufacturer").val(item.manufacturerId);
+                $("#ddlColour").val(item.colourId);
+                $("#ddlUnit").val(item.unitId);
+                $("#ddlCategory").val(item.itemCategoryId).trigger("change");
+
+                setTimeout(function () {
+                    $("#ddlSubCategory").val(item.itemSubCategoryId);
+                }, 500);
+            }
+
+            function buildModel() {
+                return {
+                    ID: parseInt($("#hdnItemId").val()) || 0,
+                    ItemCode: $("#txtItemCode").val(),
+                    ItemName: $("#txtItemName").val(),
+                    Material: $("#txtMaterial").val(),
+                    HSNCODE: $("#txtHsnCode").val(),
+                    GSTRate: parseFloat($("#txtGstRate").val()) || 0,
+                    PurchaseCost: parseFloat($("#txtPurchaseCost").val()) || 0,
+                    SellingPrice: parseFloat($("#txtSellingPrice").val()) || 0,
+                    ManufacturerId: parseInt($("#ddlManufacturer").val()) || 0,
+                    ColourId: parseInt($("#ddlColour").val()) || 0,
+                    UnitId: parseInt($("#ddlUnit").val()) || 0,
+                    ItemCategoryId: parseInt($("#ddlCategory").val()) || 0,
+                    ItemSubCategoryId: parseInt($("#ddlSubCategory").val()) || 0
+                };
+            }
+
+            // SAVE (Insert)
+            $("#btnSave").on("click", function () {
+                var model = buildModel();
+
+                if (!model.ItemName) {
+                    showMsg("Please Enter Item Name", true);
+                    return;
+                }
+
+                $.ajax({
+                    url: apiBase + "/SaveData",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(model),
+                    success: function (res) {
+                        showMsg(res, false);
+                        clearForm();
+                    },
+                    error: function () { showMsg("Save failed", true); }
+                });
+            });
+
+            // UPDATE
+            $("#btnUpdate").on("click", function () {
+                var model = buildModel();
+
+                if (!model.ID || model.ID === 0) {
+                    showMsg("Please search and select an item first before updating", true);
+                    return;
+                }
+
+                $.ajax({
+                    url: apiBase + "/UpdateData",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(model),
+                    success: function (res) { showMsg(res, false); },
+                    error: function () { showMsg("Update failed", true); }
+                });
+            });
+
+            // CLEAR
+            $("#btnClear").on("click", function () {
+                clearForm();
+            });
+
+            function clearForm() {
+                $("#hdnItemId").val(0);
+                $("#txtItemCode, #txtItemName, #txtMaterial, #txtHsnCode, #txtGstRate, #txtPurchaseCost, #txtSellingPrice").val("");
+                $("#ddlManufacturer, #ddlColour, #ddlUnit, #ddlCategory").val("0");
+                $("#ddlSubCategory").empty().append('<option value="0">Select Category First</option>');
+                $("#ddlSearchItemCode, #ddlSearchItemName").val("");
+                $("#imMsg").empty().removeClass("success error");
+            }
+
+            function showMsg(text, isError) {
+                $("#imMsg").text(text)
+                    .removeClass("success error")
+                    .addClass(isError ? "error" : "success");
+            }
+        });
+    </script>
+}
